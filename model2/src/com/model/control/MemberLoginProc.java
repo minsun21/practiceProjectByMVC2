@@ -28,6 +28,7 @@ public class MemberLoginProc extends HttpServlet {
 	}
 
 	protected void reqPro(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("???");
 		request.setCharacterEncoding("euc-kr");
 		MemberBean bean = new MemberBean();
 		bean.setId(request.getParameter("id"));

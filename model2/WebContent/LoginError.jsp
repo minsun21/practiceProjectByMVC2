@@ -4,7 +4,7 @@
 <html>
 <body>
 <script type="text/javascript">
-	alert(${msg});
+	alert("${msg}");
 	location.href='MemberJoin.jsp';
 </script>
 </body>
